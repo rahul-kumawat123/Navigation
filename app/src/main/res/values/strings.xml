@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Navigation</string>
+    <string name="shortcut_disabled_message">Shortcuts are disabled</string>
+    <string name="shortcut_label_long">You can view your details here</string>
+    <string name="shortcut_label_short">Your Account</string>
+    <string name="logout">Logout</string>
+    <string name="enter_description">Enter Description</string>
+    <string name="enter_title_here">Enter Title Here</string>
+    <string name="add_description">Add Description</string>
+    <string name="open_account">Open Account</string>
+    <string name="enter_name_here">Enter Name Here</string>
+    <string name="submit">Submit</string>
+    <string name="click_button_to_use_navigation_component">Click Button to use Navigation Component</string>
+    <string name="next">Next</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/title_et"
+        android:layout_width="@dimen/title_et_width"
+        android:layout_height="@dimen/title_et_height"
+        android:textSize="20sp"
+        android:hint="@string/enter_title_here"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.343" />
+
+    <TextView
+        android:id="@+id/addDescription_tv"
+        android:layout_width="@dimen/addDescription_tv_width"
+        android:layout_height="@dimen/addDescription_tv_height"
+        android:text="@string/add_description"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_et"
+        app:layout_constraintVertical_bias="0.106" />
+
+    <Button
+        android:id="@+id/openAccount_btn"
+        android:layout_width="@dimen/openAccount_btn_width"
+        android:layout_height="@dimen/openAccount_btn_height"
+        android:text="@string/open_account"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addDescription_tv"
+        app:layout_constraintVertical_bias="0.114" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

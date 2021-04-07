@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="showName_tv_width">317dp</dimen>
+    <dimen name="showName_tv_height">119dp</dimen>
+    <dimen name="logout_btn_width">179dp</dimen>
+    <dimen name="logout_btn_height">63dp</dimen>
+    <dimen name="frame_layput_padding">20dp</dimen>
+    <dimen name="title_et_width">302dp</dimen>
+    <dimen name="title_et_height">68dp</dimen>
+    <dimen name="addDescription_tv_width">226dp</dimen>
+    <dimen name="addDescription_tv_height">60dp</dimen>
+    <dimen name="openAccount_btn_width">264dp</dimen>
+    <dimen name="openAccount_btn_height">60dp</dimen>
+    <dimen name="name_et_width">301dp</dimen>
+    <dimen name="name_et_height">63dp</dimen>
+    <dimen name="submit_btn_width">188dp</dimen>
+    <dimen name="submit_btn_height">66dp</dimen>
+    <dimen name="heading_tv_width">255dp</dimen>
+    <dimen name="heading_tv_height">143dp</dimen>
+    <dimen name="next_btn_width">152dp</dimen>
+    <dimen name="next_btn_height">71dp</dimen>
+</resources>
